@@ -60,6 +60,8 @@
 
 .header {
     background-color: gray;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .header-navigation {}
@@ -148,7 +150,10 @@
 
 /*------------------- ABOUT----------------- */
 
-.about {}
+.about {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .about-list {}
 
@@ -158,6 +163,7 @@
 
 .about-pre-title {
     color: #303030;
+    margin-bottom: 42px;
 }
 
 .about-title {
@@ -186,6 +192,8 @@
 
 .prices {
     background-color: #303030;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .prices-pre-title {
@@ -196,7 +204,10 @@
     color: var(--main-title-color);
 }
 
-.prices-list {}
+.prices-list {
+    border: 1px solid red;
+    padding: 30px 20px;
+}
 
 .prices-item {}
 
@@ -213,7 +224,17 @@
 
 /*------------------- BENEFITS----------------- */
 
-.benefits {}
+.benefits {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.benefits-item {
+    width: 170px;
+    height: 133px;
+    padding: 20px 24px;
+    border: 1px solid red;
+}
 
 .benefits-list {}
 
@@ -310,7 +331,11 @@ button {
 }
 
 .container {
-    width: 1170px;
+    max-width: 100%;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid red;
 }

@@ -31,7 +31,8 @@ h6 {
     margin: 0;
 }
 
-ul {
+ul,
+ol {
     margin: 0;
     padding-left: 0;
 }
@@ -51,6 +52,13 @@ img {
 body {
     font-family: Open sans-serif, sans-serif;
 }
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0;
+}
+
 
 .hidden {
     position: absolute;
@@ -72,6 +80,22 @@ body {
     letter-spacing: 0.05em;
 }
 
+.header-btn {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #ff6c00;
+    color: #ffffff;
+}
+
 .btn {
     font-family: inherit;
     font-weight: 600;
@@ -79,7 +103,6 @@ body {
     line-height: 1.33;
     letter-spacing: 0.09em;
     text-transform: uppercase;
-    cursor: pointer;
     border: 1px solid #ff6c00;
     border-radius: 25px;
     background-color: transparent;

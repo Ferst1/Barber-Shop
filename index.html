@@ -13,32 +13,36 @@
     />
     <link href="./styles/style.css" rel="stylesheet" />
   </head>
-  <body>
+  <body class="body">
     <header class="header">
-      <nav class="header-navigation">
-        <a class="header-logo" href>
-          <img src="./images/logo.svg" alt="site logo" />
-        </a>
-        <ul class="header-list list">
-          <li class="header-item">
-            <a class="header-link link" href>About</a>
-          </li>
+      <div class="container">
+        <nav class="header-navigation">
+          <a class="header-logo" href>
+            <img src="./images/logo.svg" alt="site logo" />
+          </a>
+          <ul class="header-list list">
+            <li class="header-item">
+              <a class="header-link link" href>About</a>
+            </li>
 
-          <li class="header-item">
-            <a class="header-link link" href="./portfolio.html"
-              >Services and prices</a
-            >
-          </li>
-          <li class="header-item">
-            <a class="header-link link" href="#barbers">Barbers</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link link" href>Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <a class="header-tel link" href="tel:+380441111111">+38 044 111 11 11</a>
-      <button class="header-btn btn" type="button">Online-booking</button>
+            <li class="header-item">
+              <a class="header-link link" href="./portfolio.html"
+                >Services and prices</a
+              >
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="#barbers">Barbers</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href>Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="header-tel link" href="tel:+380441111111"
+          >+38 044 111 11 11</a
+        >
+        <button class="header-btn btn" type="button">Online-booking</button>
+      </div>
     </header>
     <main>
       <section class="hero">
@@ -296,6 +300,28 @@
           </li>
         </ul>
       </section>
+      <section>
+        <h2>Contacts</h2>
+        <address>
+          <ul>
+            <li>
+              <a
+                href="https://goo.gl/maps/xiXdbKPQgQZMZAFV6"
+                target="_blank"
+                ref="noopener noreferrer"
+                >st. Vasilkivska, 7A Kyiv, 08132
+              </a>
+            </li>
+            <li><a href="tel:+380411111111"> +38 044 111 11 11</a></li>
+            <li>
+              <a href="mailto:barbershop@email.com"> barbershop@email.com</a>
+            </li>
+          </ul>
+        </address>
+        <h3 class="footer-contact">Working hours</h3>
+        <p>Every day from 9:00 to 22:00</p>
+      </section>
     </main>
+    <section class="footer"></section>
   </body>
 </html>

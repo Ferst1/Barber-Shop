@@ -12,3 +12,13 @@
     refs.modal.classList.toggle("is-hidden");
   }
 })();
+
+//----------------!!!!!!!!!!!!!!!------//
+
+let booking = document.getElementById("booking");
+booking.innerHTML = "Online-booking";
+
+let title = document.getElementById("heroTitle");
+title.onclick = function () {
+  title.innerHTML = "WOW!!!";
+};
